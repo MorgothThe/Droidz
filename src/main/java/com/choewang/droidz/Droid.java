@@ -1,13 +1,13 @@
 package com.choewang.droidz;
 
 public class Droid {
-    String name;
-    double batteryLevel;
-    String color;
-    double height;
-    User owner;
-    double maxSpeed;
-    double currentSpeed;
+    private String name;
+    private double batteryLevel;
+    private String color;
+    private double height;
+    private User owner;
+    private double maxSpeed;
+    private double currentSpeed;
 
     public Droid(String name, String color, double height, User owner, double maxSpeed){
         this.name = name;

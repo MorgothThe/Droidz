@@ -1,8 +1,8 @@
 package com.choewang.droidz;
 
 public class User {
-    String login;
-    String password;
+    private String login;
+    private String password;
 
 
     public User(String login, String password) {
