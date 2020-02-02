@@ -1,0 +1,95 @@
+html {
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+header {
+    padding: 10px;
+    padding-bottom: 15px;
+    margin: 0;
+    height: 30px;
+    background-color: gray;
+}
+
+main {
+    height: calc(100% - 105px);
+}
+
+main img {
+    width: 100%;
+}
+
+main h1 {
+    font-size: xx-large;
+}
+
+#title {
+    width: 50%;
+    color: white;
+    margin-top: -300px;
+    margin-left: 20px;
+}
+
+#leftButtons {
+    float: left;
+    padding: 7px;
+}
+
+#leftButtons a {
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    font-size: 1em;
+}
+
+#leftButtons a:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+#rightButtons {
+    padding: 7px;
+    float: right;
+}
+
+#rightButtons a {
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#rightButtons a:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+footer {
+    margin: 0;
+    padding: 10px;
+    height: 30px;
+    background-color: gray;
+}
+
+footer p {
+    margin: 0;
+    display: block;
+    float: right;
+    position: relative;
+    top: 25%;
+    color: white;
+}
